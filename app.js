@@ -5,7 +5,6 @@ Desarrolla una función, que permita al usuario ingresar un nombre en el campo d
 
 Tareas específicas:
  
-
 Capturar el valor del campo de entrada: Utilizar document.getElementById o document.querySelector para obtener el texto ingresado por el usuario.
 
 Validar la entrada: Implementar una validación para asegurarse de que el campo no esté vacío. Si está vacío, mostrar un alert con un mensaje de error: "Por favor, inserte un nombre."
