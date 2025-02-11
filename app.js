@@ -1,11 +1,18 @@
+let input =document.querySelector('input');
+input.innerHTML = "Hola  "
 // Array para almacenar los nombres ingresados
+let listaAmigos = [];
 
-/*Implementa una función para agregar amigos
-Desarrolla una función, que permita al usuario ingresar un nombre en el campo de texto y añadirlo a la lista de amigos creada anteriormente.
+//Implementa una función para agregar amigos
+//Desarrolla una función, que permita al usuario ingresar un nombre en el campo de texto y añadirlo a la lista de amigos creada anteriormente.
+function ingresarNombre(params) 
+{
+    //Capturar el valor del campo de entrada: Utilizar document.getElementById o document.querySelector para obtener el texto ingresado por el usuario.
+    let nombreIngresado = document.getElementById("amigo");
+} 
 
-Tareas específicas:
+/*Tareas específicas:
  
-Capturar el valor del campo de entrada: Utilizar document.getElementById o document.querySelector para obtener el texto ingresado por el usuario.
 
 Validar la entrada: Implementar una validación para asegurarse de que el campo no esté vacío. Si está vacío, mostrar un alert con un mensaje de error: "Por favor, inserte un nombre."
 
