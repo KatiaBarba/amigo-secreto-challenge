@@ -25,9 +25,7 @@ function agregarAmigo()
 
 }
 
-/*function limpiarCaja(){
-  document.getElementById('amigo').value = '';
-}
+
 // mostrar un nombre sorteado
 // console.log(nombreSorteado(index))
 // saber el tamanio de la lista
