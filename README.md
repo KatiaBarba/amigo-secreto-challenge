@@ -12,10 +12,6 @@ Esta aplicacion es una herramienta útil para eventos sociales como intercambios
 - **Visualizar la lista:** Los nombres ingresados se muestran en una lista visible en la página.
 - **Sorteo aleatorio:** Al hacer clic en el botón "Sortear Amigo", el sistema selecciona aleatoriamente un nombre de la lista y muestra el resultado en la página.
 
-# Sorteo de Amigo Secreto
-
-Este proyecto es una aplicación web sencilla escrita en JavaScript que permite realizar un sorteo de amigo secreto. Los usuarios pueden agregar nombres a una lista, y el sistema seleccionará aleatoriamente uno de los nombres para determinar quién es el amigo secreto. Es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
-
 ## Estructura del Proyecto
 
 El proyecto está compuesto por los siguientes archivos:
