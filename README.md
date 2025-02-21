@@ -1,8 +1,10 @@
-<h1>AMIGO SECRETO - CHALLENGE - ALURA LATAM</h1>
+<h1>JUEGO DEL AMIGO SECRETO</h1>
 
-En este desafío, se desarrolló una aplicación que permite a los usuarios ingresar nombres de amigos en una lista, para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
+En este desafío, se desarrolló una aplicación web sencilla escrita en JavaScript, que permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
 
-El usuario debe agregar nombres mediante el campo de texto y el botón "Adicionar". Los nombres ingresados se muestran en una lista visible en la página, y al finalizar, el botón "Sortear Amigo" selecciona uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
+Los usuarios pueden agregar nombres a una lista, y el sistema seleccionará aleatoriamente uno de los nombres para determinar quién es el amigo secreto.
+
+Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
 
 <h2>FUNCIONALIDADES:</h2>
 <h3> Agregar nombres:</h3> Los usuarios escriben el nombre de un amigo en un campo de texto y lo agregan a una lista visible al hacer clic en "Adicionar".
@@ -11,5 +13,5 @@ El usuario debe agregar nombres mediante el campo de texto y el botón "Adiciona
 
 <h3>Visualizar la lista:</h3> Los nombres ingresados aparecen en una lista debajo del campo de entrada.
 
-<h3>Sorteo aleatorio:</h3> Al hacer clic en el botón "Sortear Amigo", se selecciona aleatoriamente un nombre de la lista y se muestra en la página.
+<h3>Sorteo aleatorio:</h3> Al hacer clic en el botón "Sortear Amigo", se selecciona aleatoriamente un nombre de la lista y muestra el resultado en la página.
 
