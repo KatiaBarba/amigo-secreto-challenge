@@ -9,15 +9,15 @@ console.log(listaAmigos)
 function agregarAmigo()
 {
     //Capturar el valor del campo de entrada: Utilizar document.getElementById o document.querySelector
-    let nombreIngresado = document.getElementById("amigo").value;
+    let nombreAmigo = document.getElementById("amigo").value;
     //Validar la entrada: Implementar una validación para asegurarse de que el campo no esté vacío. 
-    if (nombreIngresado == '')
+    if (nombreAmigo == '')
     {
         alert("Por favor, inserte un nombre.");
     }
-    console.log(nombreIngresado);
+    console.log(nombreAmigo);
     //Actualizar el array de amigos: Añadir el valor al arreglo usando el método.push().
-    listaAmigos.push(nombreIngresado);
+    listaAmigos.push(nombreAmigo);
     //Limpiar el campo de entrada: Después de añadir el nombre, restablecer el campo de texto a una cadena vacía.
     document.getElementById('amigo').value = '';
 }
@@ -39,4 +39,4 @@ Limpiar la lista existente: Establecer lista.innerHTML = "" para asegurarse de q
 
 Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y crear elementos de lista (<li>) para cada título.
 
-Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.
+Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.*/
