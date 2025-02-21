@@ -19,7 +19,6 @@ function agregarAmigo()
     //Actualizar el array de amigos: Añadir el valor al arreglo usando el método.push().
     listaAmigos.push(nombreIngresado);
     //Limpiar el campo de entrada: Después de añadir el nombre, restablecer el campo de texto a una cadena vacía.
-    //limpiarCaja();
     document.getElementById('amigo').value = '';
 }
 
