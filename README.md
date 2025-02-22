@@ -11,18 +11,18 @@ Esta aplicacion es una herramienta útil para eventos sociales como intercambios
 
 ## Índice
 
-* [Funcionalidades](#Funcionalidades)
+* [Funcionalidades](##Funcionalidades)
 
-* [Estructura del Proyecto](#Estructura-del-Proyecto)
+* [Estructura del Proyecto](##Estructura-del-Proyecto)
 
-* [Uso](#Uso)
+* [Uso](##Uso)
 
-* [Contribuciones](#Contribuciones)
+* [Contribuciones](##Contribuciones)
 
-* [Licencia](#Licencia)
+* [Licencia](##Licencia)
 
 
-## 🚀 Funcionalidades
+## :hammer: Funcionalidades
 - **Agregar nombres:** Los usuarios escriben el nombre de un amigo en un campo de texto y lo agregan a una lista visible al hacer clic en "Adicionar".
 - **Validar entrada:** Si el campo de texto está vacío, el programa muestra una alerta pidiendo un nombre válido.
 - **Visualizar la lista:** Los nombres ingresados se muestran en una lista visible en la página.
