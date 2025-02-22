@@ -24,8 +24,11 @@ El proyecto está compuesto por los siguientes archivos:
 
 AmigoSecreto/
 ├── index.html   # Estructura de la página web
+
 ├── styles.css   # Estilos para mejorar la apariencia
+
 ├── script.js    # Lógica de la aplicación
+
 ├── README.md    # Documentación del proyecto
 
 ## 🛠️ Uso
