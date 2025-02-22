@@ -1,5 +1,5 @@
 
-![Screenshot from 2025-02-21 22-29-25](https://github.com/user-attachments/assets/56d67d6b-04b9-4d39-b716-240185a95463)
+align="center" ![Screenshot from 2025-02-21 22-29-25](https://github.com/user-attachments/assets/56d67d6b-04b9-4d39-b716-240185a95463)
 
 <h2 align="center"> Challenge de Alura Latam y Oracle Next Education </h2>
 
