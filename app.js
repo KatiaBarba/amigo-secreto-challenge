@@ -12,64 +12,49 @@ function agregarAmigo()
         alert("Por favor, inserte un nombre.");
     }
     console.log(nombreAmigo);
-
     //Actualizar el array de amigos: Añadir el valor al arreglo usando el método.push().
     listaAmigos.push(nombreAmigo);
     //Limpiar el campo de entrada después de añadir el nombre
     document.getElementById('amigo').value = '';
     console.log(listaAmigos);
     // Actualizar la lista en pantalla
-    actualizaListaAmigos();
+    actualizarLista();
 }
-
-
-
 
 /*Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> 
-dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.*/
+dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.
+Para crear un <li> dinámicamente en JavaScript, usamos document.createElement("li") 
+y lo agregamos a una lista con appendChild().*/
 
-function actualizaListaAmigos(){
+    function actualizarLista() {
 
-}
+    //Tareas específicas:
 
+    //Obtener el elemento de la lista: Utilizar document.getElementById() o document.querySelector() 
+    //para seleccionar la lista donde se mostrarán los amigos.
 
+        let lista = document.getElementById("listaAmigos"); // Seleccionamos la lista en HTML
 
-/*Tareas específicas:
+    //Limpiar la lista existente: Establecer lista.innerHTML = "" para asegurarse de que 
+    //no haya duplicados al actualizar.
 
-Obtener el elemento de la lista: Utilizar document.getElementById() o document.querySelector() 
-para seleccionar la lista donde se mostrarán los amigos.
+        lista.innerHTML = "";
 
-Limpiar la lista existente: Establecer lista.innerHTML = "" para asegurarse de que 
-no haya duplicados al actualizar.
+    //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y 
+    //crear elementos de lista (<li>) para cada título.
 
-Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y 
-crear elementos de lista (<li>) para cada título.
+        // Recorrer el arreglo de amigos
+        for (let i = 0; i < listaAmigos.length; i++) 
+        {
+        // Crear un nuevo elemento <li> para cada amigo
+        const nuevoElemento = document.createElement('li');
+        
+        // Asignar el texto del amigo al elemento <li>
+        nuevoElemento.textContent = listaAmigos[i]; // Se usa la variable i como index del array
 
-Agregar elementos a la lista: Para cada amigo, crear un nuevo elemento de lista.*/
-
-/*// Supongamos que este es tu arreglo de amigos
-let listaAmigos = ['Carlos', 'Ana', 'Luis', 'Pedro', 'Marta'];
-
-// Función para agregar amigos como elementos <li> a una lista HTML
-function mostrarAmigos() {
-  // Obtener el elemento de la lista en el HTML
-  const lista = document.getElementById('friendList');
-  
-  // Limpiar la lista existente antes de agregar los nuevos elementos
-  lista.innerHTML = "";
-
-  // Recorrer el arreglo de amigos
-  for (let i = 0; i < amigos.length; i++) {
-    // Crear un nuevo elemento <li> para cada amigo
-    const li = document.createElement('li');
-    
-    // Asignar el texto del amigo al elemento <li>
-    li.textContent = amigos[i];
-
-    // Agregar el elemento <li> a la lista
-    lista.appendChild(li);
-  }
-}
+        // Agregar el elemento <li> a la lista <ul>
+        lista.appendChild(nuevoElemento);
+        }
 
 
 
@@ -87,9 +72,10 @@ function mostrarAmigos() {
 
 
 
-/* NOTAS: 
-Mostrar un nombre sorteado:
-console.log(nombreDeLaLista(index))
 
-Saber el tamanio de la lista:
-nombreDeLaLista.length*/
+    /* NOTAS: 
+    Mostrar un nombre sorteado:
+    console.log(nombreDeLaLista(index))
+
+    Saber el tamanio de la lista:
+    nombreDeLaLista.length*/
