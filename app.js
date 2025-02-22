@@ -18,14 +18,23 @@ function agregarAmigo()
     //Limpiar el campo de entrada después de añadir el nombre
     document.getElementById('amigo').value = '';
     console.log(listaAmigos);
+    // Actualizar la lista en pantalla
+    actualizaListaAmigos();
 }
 
 
 
-/*Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> 
-dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.
 
-Tareas específicas:
+/*Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> 
+dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.*/
+
+function actualizaListaAmigos(){
+
+}
+
+
+
+/*Tareas específicas:
 
 Obtener el elemento de la lista: Utilizar document.getElementById() o document.querySelector() 
 para seleccionar la lista donde se mostrarán los amigos.
