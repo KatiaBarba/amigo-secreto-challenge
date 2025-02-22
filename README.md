@@ -31,8 +31,12 @@ El proyecto está compuesto por los siguientes archivos:
 4. Hacer clic en "Sortear Amigo" para obtener un ganador aleatorio.
 
 ## 📌 Contribuciones
-
 ¡Cualquier mejora o sugerencia es bienvenida! Puedes hacer un fork del repositorio y enviar un pull request. 😊
+
+## ✍️ Autora  
+[![Katia Barba](https://github.com/KatiaBarba.png?size=100)](https://github.com/KatiaBarba)  
+
+Desarrollado por [Katia Barba](https://github.com/KatiaBarba).
 
 ## 📜 Licencia
 
