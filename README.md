@@ -11,7 +11,7 @@ Esta aplicacion es una herramienta útil para eventos sociales como intercambios
 
 ## Índice
 
-* [Funcionalidades](##Funcionalidades)
+* [Funcionalidades](##:hammer:Funcionalidades)
 
 * [Estructura del Proyecto](##Estructura-del-Proyecto)
 
