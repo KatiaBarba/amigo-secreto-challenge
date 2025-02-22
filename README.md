@@ -9,19 +9,6 @@ Los usuarios agregan los nombres de sus amigos a una lista, y el sistema selecci
 
 Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
 
-## Índice
-
-* [Funcionalidades](##:hammer: Funcionalidades)
-
-* [Estructura del Proyecto](##📂Estructura-del-Proyecto)
-
-* [Uso](##Uso)
-
-* [Contribuciones](##Contribuciones)
-
-* [Licencia](##Licencia)
-
-
 ## :hammer: Funcionalidades
 - **Agregar nombres:** Los usuarios escriben el nombre de un amigo en un campo de texto y lo agregan a una lista visible al hacer clic en "Adicionar".
 - **Validar entrada:** Si el campo de texto está vacío, el programa muestra una alerta pidiendo un nombre válido.
