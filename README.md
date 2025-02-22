@@ -2,24 +2,45 @@
 
 <h2 align="center"> Challenge de Alura Latam y Oracle Next Education </h2>
 
-En este desafío, se desarrolló una aplicación web sencilla escrita en JavaScript, que permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
+En este desafío, se desarrolló una aplicación web escrita en JavaScript, HTML y CSS, que te permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
 
-Los usuarios pueden agregar nombres a una lista, y el sistema seleccionará aleatoriamente uno de los nombres para determinar quién es el amigo secreto.
+Los usuarios agregan los nombres de sus amigos a una lista, y el sistema seleccionará aleatoriamente uno de ellos para determinar quién es el amigo secreto.
 
 Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 - **Agregar nombres:** Los usuarios escriben el nombre de un amigo en un campo de texto y lo agregan a una lista visible al hacer clic en "Adicionar".
 - **Validar entrada:** Si el campo de texto está vacío, el programa muestra una alerta pidiendo un nombre válido.
 - **Visualizar la lista:** Los nombres ingresados se muestran en una lista visible en la página.
 - **Sorteo aleatorio:** Al hacer clic en el botón "Sortear Amigo", el sistema selecciona aleatoriamente un nombre de la lista y muestra el resultado en la página.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 El proyecto está compuesto por los siguientes archivos:
 
 - `index.html`: Contiene la estructura de la página, incluyendo los campos de entrada y los botones.
 - `app.js`: El archivo JavaScript que maneja la lógica de agregar amigos, realizar el sorteo aleatorio, y actualizar la interfaz de usuario.
 - `style.css`: Archivo CSS para los estilos básicos de la página.
+
+AmigoSecreto/
+├── index.html   # Estructura de la página web
+├── styles.css   # Estilos para mejorar la apariencia
+├── script.js    # Lógica de la aplicación
+├── README.md    # Documentación del proyecto
+
+## 🛠️ Uso
+
+1. Abrir el archivo index.html o la pagina en un navegador.
+2. Ingresar nombres en el campo de texto y hacer clic en "Adicionar".
+3. Ver los nombres agregados en la lista.
+4. Hacer clic en "Sortear Amigo" para obtener un ganador aleatorio.
+
+## 📌 Contribuciones
+
+¡Cualquier mejora o sugerencia es bienvenida! Puedes hacer un fork del repositorio y enviar un pull request. 😊
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo libremente y modificarlo según sea necesario.
 
 
