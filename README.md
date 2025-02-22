@@ -9,7 +9,7 @@ Los usuarios agregan los nombres de sus amigos a una lista, y el sistema selecci
 
 Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
 
-##Índice
+## Índice
 
 * [Funcionalidades](#Funcionalidades)
 
