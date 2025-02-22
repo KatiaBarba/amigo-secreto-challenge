@@ -25,10 +25,22 @@ El proyecto está compuesto por los siguientes archivos:
 
 ## 🛠️ Uso
 
-1. Abrir el archivo index.html o la pagina en un navegador.
-2. Ingresar nombres en el campo de texto y hacer clic en "Adicionar".
+1. Abrir el archivo index.html o la <a href="https://katiabarba.github.io/amigo-secreto-challenge//">pagina</a> en un navegador.
+
+![pagina](https://github.com/user-attachments/assets/d160cb29-1176-406b-9ca9-1c03a575a40f)
+
+2. Ingresar nombres en el campo de texto y hacer clic en "añadir".
+   
+![añadir](https://github.com/user-attachments/assets/3e18e594-b3f3-4133-ab51-f2e7ff3d722a)
+   
 3. Ver los nombres agregados en la lista.
+
+   ![lista-amigos](https://github.com/user-attachments/assets/4803595a-841b-4864-9de8-89cedbdc5cee)
+
 4. Hacer clic en "Sortear Amigo" para obtener un ganador aleatorio.
+
+![amigo-secreto](https://github.com/user-attachments/assets/6324d3b1-6d7a-4ed1-84b2-cf652bb44eb7)
+
 
 ## 📌 Contribuciones
 ¡Cualquier mejora o sugerencia es bienvenida! Puedes hacer un fork del repositorio y enviar un pull request. 😊
