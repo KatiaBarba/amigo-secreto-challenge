@@ -1,7 +1,7 @@
 // Array para almacenar los nombres ingresados
 let listaAmigos = [];
 
-//Implementa una función para agregar amigos
+//PRIMERA FUNCION. Implementa una función para agregar amigos
 function agregarAmigo()
 {
     //Capturar el valor del campo de entrada: Utilizar document.getElementById o document.querySelector
@@ -21,7 +21,7 @@ function agregarAmigo()
     actualizarLista();
 }
 
-/*Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> 
+/* SEGUNDA FUNCION. Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> 
 dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.
 Para crear un <li> dinámicamente en JavaScript, usamos document.createElement("li") 
 y lo agregamos a una lista con appendChild().*/
@@ -58,26 +58,53 @@ y lo agregamos a una lista con appendChild().*/
         }
     }
 
+/* TERCERA FUNCION. Escribe una función que seleccione de manera aleatoria uno de los nombres 
+almacenados en el array amigos. Usa Math.random() y Math.floor() para obtener un índice aleatorio.*/
+
+    function sortearAmigo()
+    {
+
+//Tareas específicas:
+//Validar que haya amigos disponibles: Antes de sortear, comprobar si el array amigos no está vacío.
+
+    if (listaAmigos.length === 0)
+    {
+        alert("Por favor, ingresa los nombres de tus amigos.");
+        return;
+    }
+
+// Generar un índice aleatorio: Usar Math.random() y Math.floor() para seleccionar 
+// un índice aleatorio del arreglo.
+
+    let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
+
+// Obtener el nombre sorteado: Utilizar el índice aleatorio para acceder al nombre 
+// correspondiente en el arreglo.
+
+    let amigoSecreto = listaAmigos[indiceAleatorio];
+
+// Mostrar el resultado: Actualizar el contenido del elemento de resultado 
+// utilizando document.getElementById()  e innerHTML para mostrar el amigo sorteado.
+
+    document.getElementById("resultado").innerHTML = (`🎉 Tu amigo secreto es <strong>${amigoSecreto}</strong>!`);
+    }
 
 
 
 
 
 
+/* Como funcionan las funciones Math.random() y Math.floor()?
+Cuando los combinamos en la función sortearAmigo(), estamos generando un índice aleatorio válido para el array amigos.
 
+let indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
+Math.random() genera un número decimal entre 0 y 1.
+Ejemplo: 0.7345
+Multiplicamos por amigos.length (el tamaño del array).
+Si hay 5 amigos, 0.7345 * 5 = 3.6725
+Math.floor() redondea hacia abajo para obtener un índice válido.
+Math.floor(3.6725) = 3
+Se usa este índice para obtener un nombre del array:
 
-
-
-
-
-
-
-
-
-    /* NOTAS: 
-    Mostrar un nombre sorteado:
-    console.log(nombreDeLaLista(index))
-
-    Saber el tamanio de la lista:
-    nombreDeLaLista.length*/
+let amigoSorteado = amigos[indiceAleatorio];*/
