@@ -1,10 +1,10 @@
-![Screenshot from 2025-02-21 22-29-25](https://github.com/user-attachments/assets/56d67d6b-04b9-4d39-b716-240185a95463)
+![portada](https://github.com/user-attachments/assets/56d67d6b-04b9-4d39-b716-240185a95463)
 
 <h2 align="center"> Challenge de Alura Latam y Oracle Next Education </h2>
 
 En este desafío, se desarrolló una aplicación web escrita en JavaScript, HTML y CSS, que te permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
 
-Los usuarios agregan los nombres de sus amigos a una lista, y el sistema seleccionará aleatoriamente uno de ellos para determinar quién es el amigo secreto.
+Los usuarios agregan los nombres de sus amigos a una lista, y el sistema selecciona aleatoriamente uno de ellos para determinar quién es el amigo secreto.
 
 Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
 
@@ -21,15 +21,6 @@ El proyecto está compuesto por los siguientes archivos:
 - `index.html`: Contiene la estructura de la página, incluyendo los campos de entrada y los botones.
 - `app.js`: El archivo JavaScript que maneja la lógica de agregar amigos, realizar el sorteo aleatorio, y actualizar la interfaz de usuario.
 - `style.css`: Archivo CSS para los estilos básicos de la página.
-
-AmigoSecreto/
-├── index.html   # Estructura de la página web
-
-├── styles.css   # Estilos para mejorar la apariencia
-
-├── script.js    # Lógica de la aplicación
-
-├── README.md    # Documentación del proyecto
 
 ## 🛠️ Uso
 
