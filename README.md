@@ -1,16 +1,26 @@
 ![portada](https://github.com/user-attachments/assets/56d67d6b-04b9-4d39-b716-240185a95463) 
 
-
 <h1 align="center"> Challenge de Alura Latam y Oracle Next Education </h1> 
 <h2 align="center"> <a href="https://katiabarba.github.io/amigo-secreto-challenge//">Link del juego</a> </h2> 
-
-
 
 En este desafío, se desarrolló una aplicación web escrita en JavaScript, HTML y CSS, que te permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
 
 Los usuarios agregan los nombres de sus amigos a una lista, y el sistema selecciona aleatoriamente uno de ellos para determinar quién es el amigo secreto.
 
 Esta aplicacion es una herramienta útil para eventos sociales como intercambios de regalos o actividades de grupo.
+
+##Índice
+
+* [Funcionalidades](#Funcionalidades)
+
+* [Estructura del Proyecto](#Estructura-del-Proyecto)
+
+* [Uso](#Uso)
+
+* [Contribuciones](#Contribuciones)
+
+* [Licencia](#Licencia)
+
 
 ## 🚀 Funcionalidades
 - **Agregar nombres:** Los usuarios escriben el nombre de un amigo en un campo de texto y lo agregan a una lista visible al hacer clic en "Adicionar".
