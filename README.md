@@ -1,4 +1,4 @@
-<h1>AMIGO SECRETO CHALLENGE </h1>
+<h1 align="center"> AMIGO SECRETO CHALLENGE </h1>
 <h2>Alura Latam - Oracle Next Education</h2>
 
 En este desafío, se desarrolló una aplicación web sencilla escrita en JavaScript, que permite realizar un sorteo de los nombres de tus amigos, para determinar quién es el "amigo secreto".
