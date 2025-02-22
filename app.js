@@ -26,7 +26,8 @@ dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar n
 Para crear un <li> dinámicamente en JavaScript, usamos document.createElement("li") 
 y lo agregamos a una lista con appendChild().*/
 
-    function actualizarLista() {
+    function actualizarLista() 
+    {
 
     //Tareas específicas:
 
@@ -55,6 +56,7 @@ y lo agregamos a una lista con appendChild().*/
         // Agregar el elemento <li> a la lista <ul>
         lista.appendChild(nuevoElemento);
         }
+    }
 
 
 
