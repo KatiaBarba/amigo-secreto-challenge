@@ -22,14 +22,4 @@ El proyecto está compuesto por los siguientes archivos:
 - `app.js`: El archivo JavaScript que maneja la lógica de agregar amigos, realizar el sorteo aleatorio, y actualizar la interfaz de usuario.
 - `style.css`: Archivo CSS para los estilos básicos de la página.
 
-## Instalación y Uso
 
-### Requisitos
-
-No se requieren dependencias adicionales para este proyecto. Solo necesitas un navegador web moderno que soporte HTML, CSS y JavaScript.
-
-### Pasos
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone git@github.com:KatiaBarba/amigo-secreto-challenge-alura.git
